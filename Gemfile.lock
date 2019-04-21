@@ -50,10 +50,14 @@ GEM
     archive-zip (0.12.0)
       io-like (~> 0.3.0)
     arel (9.0.0)
+    autoprefixer-rails (9.5.1)
+      execjs
     bcrypt (3.1.7)
     bindex (0.7.0)
     bootsnap (1.4.3)
       msgpack (~> 1.0)
+    bootstrap-sass (3.2.0.4)
+      sass (~> 3.2)
     bootstrap-will_paginate (1.0.0)
       will_paginate
     builder (3.2.3)
@@ -357,8 +361,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
   bcrypt (= 3.1.7)
   bootsnap (>= 1.1.0)
+  bootstrap-sass (~> 3.2.0)
   bootstrap-will_paginate
   byebug
   capistrano-rails
